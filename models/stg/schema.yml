@@ -2,6 +2,9 @@ version: 2
 
 sources:
   - name: my_source
-    database: demodb
+    database: workspace
+    schema: demodb
+
     tables:
       - name: sample_table
+      - name: employees
