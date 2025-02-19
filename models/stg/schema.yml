@@ -3,8 +3,9 @@ version: 2
 sources:
   - name: my_source
     database: workspace
-    schema: demodb
+    schema: demo_schema
 
     tables:
       - name: sample_table
+
       - name: employees
