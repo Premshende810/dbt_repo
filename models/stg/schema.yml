@@ -1,0 +1,7 @@
+version: 2
+
+sources:
+  - name: my_source
+    database: demodb
+    tables:
+      - name: sample_table
